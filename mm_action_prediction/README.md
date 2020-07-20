@@ -184,7 +184,7 @@ The baselines trained through the code obtain the following results for Sub-Task
 | T-HAE  | 77.6 | 1.80 | 38.7 |
 
 <figure>
-<img src="../figures/Furniture_encoders_HAE.png" width="300" alt="Result of SIMMC-Furniture" align="center"> 
+<img src="../figures/Furniture_encoders_HAE.png" width="500" alt="Result of SIMMC-Furniture" align="center"> 
 <figcaption><i>The result of SIMMC-Furniture with HAE encoder</i></figcaption> 
 </figure>
 
@@ -199,7 +199,7 @@ The baselines trained through the code obtain the following results for Sub-Task
 | T-HAE  | 80.7 | 1.86 | 54.3 |
 
 <figure>
-<img src="../figures/Fashion_encoders_HAE.png" width="300" alt="Result of SIMMC-Fashion" align="center"> 
+<img src="../figures/Fashion_encoders_HAE.png" width="500" alt="Result of SIMMC-Fashion" align="center"> 
 <figcaption><i>The result of SIMMC-Fashion with HAE encoder</i></figcaption> 
 </figure>
 
