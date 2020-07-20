@@ -183,6 +183,11 @@ The baselines trained through the code obtain the following results for Sub-Task
 | MN     | 78.5 | 1.70 | 36.9 |        
 | T-HAE  | 77.6 | 1.80 | 38.7 |
 
+<figure>
+<img src="./figures/Furniture_encoders_HAE.png" width="300" alt="Result of SIMMC-Furniture" align="center"> 
+<figcaption><i>The result of SIMMC-Furniture with HAE encoder</i></figcaption> 
+</figure>
+
 **SIMMC-Fashion**
 
 | Model  |     Action Accuracy      | Action Perplexity | Attribute Accuracy |
@@ -193,6 +198,10 @@ The baselines trained through the code obtain the following results for Sub-Task
 | MN     | 81.3 | 1.81 | 53.5 |
 | T-HAE  | 80.7 | 1.86 | 54.3 |
 
+<figure>
+<img src="./figures/Fashion_encoders_HAE.png" width="300" alt="Result of SIMMC-Fashion" align="center"> 
+<figcaption><i>The result of SIMMC-Fashion with HAE encoder</i></figcaption> 
+</figure>
 
 ## Rules for Sub-task #1 Submissions
 * Disallowed Input: `belief_state`, `system_transcript`, `system_transcript_annotated`, `state_graph_1`, `state_graph_2`, and anything from future turns.
