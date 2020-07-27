@@ -183,10 +183,15 @@ The baselines trained through the code obtain the following results for Sub-Task
 | MN     | 78.5 | 1.70 | 36.9 |        
 | T-HAE  | 77.6 | 1.80 | 38.7 |
 
-<figure>
-<img src="../figures/Furniture_encoders_HAE.png" width="500" alt="Result of SIMMC-Furniture" align="center"> 
-<figcaption><i>The result of SIMMC-Furniture with HAE encoder</i></figcaption> 
-</figure>
+**SIMMC-Furniture-run**
+
+| Model  |     Action Accuracy      | Action Perplexity | Attribute Accuracy |
+|----------| :-------------: | :------: | :------: |
+| TF-IDF | 77.54 | 2.59 | 34.90 |
+| HAE    | 78.27 | 2.70 | 37.41 |        
+| HRE    | 77.77 | 2.97 | 36.72 |
+| MN     | 78.14 | 2.72 | 35.52 |        
+| T-HAE  | 80.30 | 1.78 | 33.65 |
 
 **SIMMC-Fashion**
 
@@ -198,10 +203,16 @@ The baselines trained through the code obtain the following results for Sub-Task
 | MN     | 81.3 | 1.81 | 53.5 |
 | T-HAE  | 80.7 | 1.86 | 54.3 |
 
-<figure>
-<img src="../figures/Fashion_encoders_HAE.png" width="500" alt="Result of SIMMC-Fashion" align="center"> 
-<figcaption><i>The result of SIMMC-Fashion with HAE encoder</i></figcaption> 
-</figure>
+
+**SIMMC-Fashion-run**
+
+| Model  |     Action Accuracy      | Action Perplexity | Attribute Accuracy |
+|----------| :-------------: | :------: | :------: |
+| TD-IDF | 78.31 | 6.36 | 47.40 |
+| HAE    | 81.07 | 4.62 | 52.16 |
+| HRE    | 81.75 | 4.01 | 53.30 |
+| MN     | 81.18 | 4.06 | 52.42 |
+| T-HAE  | 80.93 | 2.07 | 53.02 |
 
 ## Rules for Sub-task #1 Submissions
 * Disallowed Input: `belief_state`, `system_transcript`, `system_transcript_annotated`, `state_graph_1`, `state_graph_2`, and anything from future turns.
