@@ -213,7 +213,8 @@ The baselines trained through the code obtain the following results for Sub-Task
 | HRE    | 81.75 | 4.01 | 53.30 |
 | MN     | 81.18 | 4.06 | 52.42 |
 | T-HAE  | 80.93 | 2.07 | 53.02 |
-
+| T-HRE1  | 80.10 | 1.73 | 49.70 |
+| T-HRE2  | 80.84 | 1.72 | 52.58 |
 ## Rules for Sub-task #1 Submissions
 * Disallowed Input: `belief_state`, `system_transcript`, `system_transcript_annotated`, `state_graph_1`, `state_graph_2`, and anything from future turns.
 * If you would like to use any other external resources, please consult with the track organizers (simmc@fb.com). Generally, we allow the use of publicly available pre-trained language models, such as BERT, GPT-2, etc.
